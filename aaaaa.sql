@@ -1,3 +1,4 @@
+create database Python;
 create role Admin with password 'Abcd4321';
 alter role Admin LOGIN;
 Grant connect on database "Python" to Admin;
